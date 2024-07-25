@@ -1,0 +1,2 @@
+config SHIELD_ZIGMA
+    def_bool $(shields_list_contains, zigma)
