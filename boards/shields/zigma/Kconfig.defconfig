@@ -1,6 +1,6 @@
 if SHIELD_ZIGMA
 
 config ZMK_KEYBOARD_NAME
-    defaul "zigma"
+    default "zigma"
 
 endif
