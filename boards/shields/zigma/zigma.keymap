@@ -10,7 +10,7 @@
             bindings = <
                 &ls             &kp I           &kp UP          &kp R
                 &mt LCTRL 1     &kp LEFT        &kp DOWN        &kp RIGHT
-                                                                &lt 1 LALT      &lt 3 K_SPACE
+                                                                &lt 2 LALT      &lt 3 SPC
             >;
         };
 
@@ -36,6 +36,6 @@
                 &none           &none           &bt BT_CLR      &bootloader
                                                                 &none           &none
             >;
-        }
+        };
     };
 };
