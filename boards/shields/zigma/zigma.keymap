@@ -8,15 +8,15 @@
 
         default_layer {
             bindings = <
-                &kp LS          &kp I           &kp UP          &kp R
+                &kp LSHIFT      &kp I           &kp UP          &kp R
                 &mt LCTRL 1     &kp LEFT        &kp DOWN        &kp RIGHT
-                                                                &lt 2 LALT      &lt 3 SPC
+                                                                &lt 2 LALT      &lt 3 SPACE
             >;
         };
 
         layer1 {
             bindings = <
-                &trans          &kp BSPC        &kp D           &trans
+                &trans          &kp BSLH        &kp D           &trans
                 &trans          &mt LCTRL Z     &mt LCTRL C     &mt LCTRL V
                                                                 &trans          &kp DEL
             >;
